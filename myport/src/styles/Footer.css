@@ -1,63 +1,12 @@
 .footer {
-  background: linear-gradient(90deg, #222 60%, #444 100%);
+  background: #111;
   color: #fff;
+  padding: 1.5rem 0;
   text-align: center;
-  padding: 0;
-  font-family: 'Roboto', 'Lato', Arial, sans-serif;
   font-size: 1rem;
-  box-shadow: 0 -2px 16px rgba(0,0,0,0.3);
-  margin-top: 3rem;
-  position: relative;
-  border-top: none;
-}
-
-.footer-bar {
-  height: 4px;
-  width: 100%;
-  background: linear-gradient(90deg, #66fcf1 0%, #fff 50%, #5865F2 100%);
-  margin-bottom: 0.5rem;
-}
-
-.footer-content {
-  padding: 1.3rem 0 1.6rem 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.footer-socials {
-  margin-bottom: 0.7rem;
-  display: flex;
-  gap: 1.5rem;
-}
-
-.footer-icon {
-  width: 36px;
-  height: 36px;
-  display: inline-block;
-  background-color: #fff;
-  border-radius: 50%;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.18), 0 0 0 2px #222;
-  transition: transform 0.22s, box-shadow 0.22s;
-  background-position: center;
-  background-size: 70% 70%;
-  background-repeat: no-repeat;
-}
-
-.footer-icon.fb { background-image: url('https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg'); }
-.footer-icon.ig { background-image: url('https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg'); }
-.footer-icon.discord { background-image: url('https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/discord.svg'); }
-
-.footer-icon:hover, .footer-icon:focus {
-  transform: scale(1.12);
-  box-shadow: 0 4px 16px #66fcf188;
-  background-color: #66fcf1;
+  letter-spacing: 0.5px;
 }
 
 .footer p {
   margin: 0;
-  opacity: 0.80;
-  letter-spacing: 1px;
-  font-size: 1rem;
-  font-family: 'Lato', 'Roboto', Arial, sans-serif;
 }

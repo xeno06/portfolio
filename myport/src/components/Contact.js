@@ -4,19 +4,19 @@ import '../styles/Contact.css';
 const socials = [
   {
     name: 'Facebook',
-    placeholder: 'https://www.facebook.com/vince.quijano.58',
+    placeholder: 'Your Facebook username or profile URL',
     iconClass: 'fb',
     id: 'facebook',
   },
   {
     name: 'Instagram',
-    placeholder: 'https://www.instagram.com/donxenooo?igsh=cWs4YWZnYTI3OGt4',
+    placeholder: 'Your Instagram username or profile URL',
     iconClass: 'ig',
     id: 'instagram',
   },
   {
     name: 'Discord',
-    placeholder: 'xenooo6197',
+    placeholder: 'Your Discord username (e.g., user#1234)',
     iconClass: 'discord',
     id: 'discord',
   },
