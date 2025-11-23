@@ -1,0 +1,40 @@
+.projects-section {
+  padding: 3rem 0;
+}
+
+.projects-section h2 {
+  color: #66fcf1;
+  margin-bottom: 2rem;
+}
+
+.projects-list {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  background: #222;
+  border-radius: 10px;
+  padding: 1rem 2rem;
+  min-width: 220px;
+  max-width: 300px;
+  box-shadow: 0 2px 16px #0006;
+}
+
+.project-card h3 {
+  color: #66fcf1;
+  margin-bottom: 0.5rem;
+}
+
+.project-card a {
+  color: #fff;
+  font-weight: bold;
+  margin-top: 1rem;
+  display: inline-block;
+  transition: color 0.2s;
+}
+
+.project-card a:hover {
+  color: #66fcf1;
+}
