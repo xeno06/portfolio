@@ -1,15 +1,18 @@
 .projects-section {
-  padding: 3rem 0;
+  width: 100%;
+  text-align: center;
 }
 
 .projects-section h2 {
-  color: #66fcf1;
-  margin-bottom: 2rem;
+  color: #fff;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
 }
 
 .projects-list {
   display: flex;
   gap: 2rem;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
@@ -20,21 +23,28 @@
   min-width: 220px;
   max-width: 300px;
   box-shadow: 0 2px 16px #0006;
+  color: #fff;
 }
 
 .project-card h3 {
-  color: #66fcf1;
+  color: #fff;
   margin-bottom: 0.5rem;
+  font-weight: bold;
 }
 
 .project-card a {
-  color: #fff;
+  color: #000;
+  background: #fff;
   font-weight: bold;
   margin-top: 1rem;
   display: inline-block;
-  transition: color 0.2s;
+  border-radius: 6px;
+  padding: 0.4rem 0.8rem;
+  text-decoration: none;
 }
 
 .project-card a:hover {
-  color: #66fcf1;
+  background: #222;
+  color: #fff;
+  border: 1px solid #fff;
 }

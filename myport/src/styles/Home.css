@@ -1,15 +1,16 @@
 .home-section {
   text-align: center;
-  padding: 5rem 0 3rem 0;
-  background: #181818;
 }
 
 .home-section h1 {
-  color: #66fcf1;
+  color: #fff;
   font-size: 2.7rem;
   margin-bottom: 1rem;
+  font-weight: 900;
 }
 
 .home-section p {
   font-size: 1.2rem;
+  color: #fff;
+  opacity: 0.85;
 }

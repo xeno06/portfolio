@@ -1,27 +1,46 @@
+.contact-section {
+  width: 100%;
+  background: #181818;
+  padding: 3rem 0 2rem 0;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.contact-section h2 {
+  color: #fff;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+}
+
 .social-input {
   display: flex;
   align-items: center;
   gap: 1rem;
   margin-bottom: 1rem;
-  background: #181818;
+  background: #fff;
   padding: 1rem;
   border-radius: 8px;
-  box-shadow: 0 2px 8px #0006;
+  box-shadow: 0 2px 8px #0005;
+  max-width: 420px;
+  margin: 0.5rem auto;
 }
 
 .social-input input {
   flex: 1;
-  background: #222226;
+  background: #222;
   color: #fff;
   border: none;
   border-radius: 6px;
   padding: 0.8rem;
   font-size: 1rem;
-  outline: none;
 }
 
-.social-input svg {
-  min-width: 30px;
-  min-height: 30px;
-  display: block;
+.icon {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
 }
+
+.icon.fb { background: url('https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg') no-repeat center/contain; }
+.icon.ig { background: url('https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg') no-repeat center/contain; }
+.icon.discord { background: url('https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/discord.svg') no-repeat center/contain; }

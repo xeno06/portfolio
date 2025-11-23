@@ -7,14 +7,10 @@ body, .app {
   padding: 0;
 }
 
-main > section {
+main > section:not(#about) {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
   min-height: 50vh;
-}
-
-#about {
-  /* Remove centering for About */
-  justify-content: flex-end;
 }

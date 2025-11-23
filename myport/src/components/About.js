@@ -1,5 +1,5 @@
 import React from 'react';
-import Picture from './Picture'; // Ensure this import matches your capitalization and file location
+import Picture from './Picture';
 import '../styles/About.css';
 
 export default function About() {
@@ -10,7 +10,7 @@ export default function About() {
         <div className="about-info">
           <h2>About Me</h2>
           <p>
-            Hi! I'm Vince Quijano, a Software Developer with experience in React, JavaScript and web UI/UX design.
+            Hi! I'm Vince Quijano, a Software Developer with experience in React, JavaScript, and web UI/UX design.
           </p>
           <ul>
             <li>HTML, CSS, JavaScript, Photoshop</li>
