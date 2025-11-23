@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom'; // Use HashRouter for static deploys
+import { HashRouter as Router, Routes, Route } from 'react-router-dom'; // HashRouter is best for Vercel/Netlify
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import About from './components/About';
@@ -20,7 +20,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </main>
-      <Footer />
+      <Footer/>
     </Router>
   );
 }
