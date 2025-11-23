@@ -6,6 +6,7 @@
   color: #fff;
   font-size: 2.7rem;
   margin-bottom: 1rem;
+  font-family: 'Montserrat', Arial, sans-serif;
   font-weight: 900;
 }
 
@@ -13,4 +14,5 @@
   font-size: 1.2rem;
   color: #fff;
   opacity: 0.85;
+  font-family: 'Roboto', 'Lato', Arial, sans-serif;
 }

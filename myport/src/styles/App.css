@@ -1,7 +1,7 @@
 body, .app {
   background: #181818;
   color: #fff;
-  font-family: 'Roboto', Arial, sans-serif;
+  font-family: 'Roboto', 'Lato', Arial, sans-serif;
   min-height: 100vh;
   margin: 0;
   padding: 0;
@@ -13,4 +13,9 @@ main > section:not(#about) {
   align-items: center;
   justify-content: center;
   min-height: 50vh;
+}
+
+h1, h2, h3, .logo {
+  font-family: 'Montserrat', 'Roboto', 'Lato', Arial, sans-serif;
+  font-weight: 700;
 }

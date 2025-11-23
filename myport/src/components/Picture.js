@@ -1,5 +1,5 @@
 import React from 'react';
-import profilePic from '../Image.jpg'; // If Picture.js is in src/components
+import profilePic from '../Image.jpg'; // Make sure the file is src/Image.jpg
 import '../styles/Picture.css';
 
 const Picture = () => (

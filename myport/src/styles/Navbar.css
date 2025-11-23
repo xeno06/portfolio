@@ -1,17 +1,23 @@
 .navbar {
-  background: #181818;
+  background: linear-gradient(90deg, #222 60%, #444 100%);
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2vw;
   border-bottom: 2px solid #fff;
+  box-shadow: 0 2px 16px rgba(255,255,255,0.07);
+  position: sticky;
+  top: 0;
+  z-index: 99;
 }
 
 .logo {
+  font-family: 'Montserrat', 'Roboto', Arial, sans-serif;
   font-size: 1.7rem;
-  color: #fff;
+  font-weight: 700;
   letter-spacing: 2px;
-  font-weight: bold;
+  color: #fff;
+  text-shadow: 0 2px 8px rgba(255,255,255,0.3);
 }
 
 .nav-links {
@@ -21,15 +27,18 @@
 }
 
 .nav-links a {
-  color: #fff;
-  transition: color 0.2s;
+  color: #fdfdfd;
+  transition: background 0.2s, color 0.2s;
   font-weight: bold;
   text-decoration: none;
+  padding: 0.3rem 0.8rem;
+  border-radius: 5px;
 }
 
-.nav-links a:hover {
-  color: #000;
+.nav-links a:hover,
+.nav-links a:focus {
   background: #fff;
-  border-radius: 5px;
-  padding: 0.25rem 0.5rem;
+  color: #111;
+  box-shadow: 0 2px 8px rgba(255,255,255,0.13);
+  text-decoration: none;
 }
