@@ -10,10 +10,10 @@ export default function About() {
         <div className="about-info">
           <h2>About Me</h2>
           <p>
-            Hi! I'm Your Name, a passionate developer with experience in React, JavaScript and web UI/UX design.
+            Hi! I'm Vince Quijano, a Software Developer with experience in React, JavaScript and web UI/UX design.
           </p>
           <ul>
-            <li>HTML, CSS, JavaScript</li>
+            <li>HTML, CSS, JavaScript, Photoshop</li>
             <li>React & Redux</li>
             <li>Responsive Design</li>
           </ul>
