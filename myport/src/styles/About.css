@@ -4,19 +4,23 @@
   border-radius: 12px;
   margin-bottom: 2rem;
   box-shadow: 0 4px 24px rgba(0,0,0,0.5);
+  width: 100%;
 }
 
-.about-section h2 {
-  color: #66fcf1;
+.about-content {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  flex-wrap: wrap;
+  justify-content: flex-end; /* Aligns content to right */
 }
 
-.about-section ul {
-  margin: 1rem 0 0 0;
-  padding: 0;
-  list-style: none;
+.about-info {
+  max-width: 400px;
+  /* Ensures it's on right */
+  order: 2;
 }
 
-.about-section li {
-  margin-bottom: 0.7rem;
-  font-size: 1.1rem;
+.profile-container {
+  order: 1;
 }

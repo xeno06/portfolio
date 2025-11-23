@@ -7,6 +7,14 @@ body, .app {
   padding: 0;
 }
 
-main {
-  padding: 2rem 4vw;
+main > section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+}
+
+#about {
+  /* Remove centering for About */
+  justify-content: flex-end;
 }

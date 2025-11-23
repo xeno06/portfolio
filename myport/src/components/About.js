@@ -1,18 +1,24 @@
 import React from 'react';
+import Picture from './Picture'; // Ensure this import matches your capitalization and file location
 import '../styles/About.css';
 
 export default function About() {
   return (
     <section id="about" className="about-section">
-      <h2>About Me</h2>
-      <p>
-        Hi! I'm Your Name, a passionate developer with experience in React, JavaScript and web UI/UX design.
-      </p>
-      <ul>
-        <li>HTML, CSS, JavaScript</li>
-        <li>React & Redux</li>
-        <li>Responsive Design</li>
-      </ul>
+      <div className="about-content">
+        <Picture />
+        <div className="about-info">
+          <h2>About Me</h2>
+          <p>
+            Hi! I'm Your Name, a passionate developer with experience in React, JavaScript and web UI/UX design.
+          </p>
+          <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>React & Redux</li>
+            <li>Responsive Design</li>
+          </ul>
+        </div>
+      </div>
     </section>
   );
 }
