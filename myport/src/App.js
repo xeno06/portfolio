@@ -1,4 +1,5 @@
 import React from 'react';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom'; // Use HashRouter for static deploys
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import About from './components/About';
@@ -9,16 +10,18 @@ import './styles/App.css';
 
 function App() {
   return (
-    <div className="app">
+    <Router>
       <Navbar />
       <main>
-        <Home />
-        <About />
-        <Projects />
-        <Contact />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
       </main>
-      <Footer/>
-    </div>
+      <Footer />
+    </Router>
   );
 }
 
